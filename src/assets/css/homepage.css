@@ -1,0 +1,79 @@
+.homepage {
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(105%)
+}
+
+.alignEnd {
+    margin-top: 15em !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.cardAcc {
+    height: 200px;
+    background-size: 100% 100%;
+    box-shadow: 5px 5px 5px black;
+    filter: grayscale(100%);
+    transition: ease-in-out .2s;
+    background-repeat: no-repeat;
+}
+
+.cardAcc:hover {
+    filter: none;
+    transition: ease-in-out .2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.detailAll {
+    /* padding: 15px; */
+    margin-top: -60px;
+    margin-bottom: -60px;
+    margin-left: 60px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.77);
+    padding: 20px;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.detailAll>a {
+    background-color: rgba(0, 0, 0, 0.798);
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+}
+
+.detailAll>a:hover {
+    transition: ease-in-out .2s;
+    transform: scale(1.1);
+    color: white;
+}
+.homepage a{
+    text-decoration: none;
+}
+
+.player{
+    height: 100vh;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    }
+    .over{
+    position:absolute;
+    bottom: 0px;
+    height: 10rem;
+    opacity: 0.65
+    }
+    .over:hover{
+    opacity: 0.95
+    }

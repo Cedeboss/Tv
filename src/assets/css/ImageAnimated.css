@@ -1,0 +1,22 @@
+.carouselNamesProduct {
+    color: white;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.backCarouselInfo {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7px;
+}
+
+
+.imgAnimated {
+    max-height: 100vh;
+    /* width: 100%; */
+}
+
+.carousel-indicators,
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: none !important;
+}
